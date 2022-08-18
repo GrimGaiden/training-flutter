@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:training_flutter/screens/contador.dart';
+import 'package:training_flutter/screens/cards.dart';
 
 void main() {
   runApp(const MyApp());
@@ -25,7 +25,7 @@ class MyApp extends StatelessWidget {
         // is not restarted.
         primarySwatch: Colors.blue,
       ),
-      home: const MyHomePage(title: 'Flutter Demo Home Page'),
+      home: const Cards(),
     );
   }
 }
