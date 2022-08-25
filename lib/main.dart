@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:training_flutter/screens/cards.dart';
+import 'package:training_flutter/screens/prueba_enurtado_1.dart';
 
 void main() {
   runApp(const MyApp());
@@ -25,7 +25,7 @@ class MyApp extends StatelessWidget {
         // is not restarted.
         primarySwatch: Colors.blue,
       ),
-      home: const Cards(),
+      home: const PruebaEnrutado1(),
     );
   }
 }
